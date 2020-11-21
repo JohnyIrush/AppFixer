@@ -76583,7 +76583,7 @@ var render = function() {
                       staticClass: "btn btn-primary",
                       on: {
                         click: function($event) {
-                          return _vm.Save()
+                          return _vm.Savepost()
                         }
                       }
                     },

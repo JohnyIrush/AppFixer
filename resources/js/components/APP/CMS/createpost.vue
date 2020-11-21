@@ -27,7 +27,7 @@
           </div>
           <!--footer-->
       <div class="modal-footer">
-        <button @click="Save()"  class="btn btn-primary">Create Post</button>
+        <button @click="Savepost()"  class="btn btn-primary">Create Post</button>
       </div>
       </div>
     </div>
