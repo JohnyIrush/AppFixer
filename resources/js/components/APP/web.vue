@@ -80,7 +80,7 @@ import logo_load from './logo_load.vue';
         },
         init(){
           this.loading = true;
-           this.req.get('/init')
+           this.req.get('/auth/init')
            .then(response=>{
              this.user = response.data.user;
              this.loading = false;

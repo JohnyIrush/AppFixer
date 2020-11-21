@@ -27,7 +27,7 @@
           </div>
           <!--footer-->
       <div class="modal-footer">
-        <button @click="Savepost()"  class="btn btn-primary">Create Post</button>
+        <button @click="Save()"  class="btn btn-primary">Create Post</button>
       </div>
       </div>
     </div>
@@ -81,6 +81,7 @@ export default {
               }
               else{
               data = {
+              "_token": "{{ csrf_token() }}",
               title: this.title,
               image: this.thumbnail,
               post: this.post
@@ -132,6 +133,7 @@ export default {
       },
         Savepost(){
           const data = {
+            "_token": "{{ csrf_token() }}",
               title: this.title,
               image: this.image,
               posts: this.post

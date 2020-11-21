@@ -106,7 +106,7 @@ export default {
                    email: this.email,
                    password: this.password,
                }
-               this.app.req.post('/register',data)
+               this.app.req.post('/auth/register',data)
                .then(response =>{
                  this.app.user = response.data;
                  $('#register').modal('hide');

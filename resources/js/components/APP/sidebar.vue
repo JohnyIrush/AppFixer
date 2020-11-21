@@ -12,6 +12,7 @@
             <div class="modal-body">
              <!--Menus-->
              <ul class="list-unstyled"> 
+               <a href="/home"  class="heading-color link-sb-style link-size mb-5"   type="button" aria-expanded="false" aria-controls="multiCollapseExample1"> Admin</a>
                  <p  class="heading-color link-sb-style link-size" data-toggle="collapse" href="#Cms" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-cogs" aria-hidden="true"></i>CMS</p>
                    <div class="collapse  multi-collapse" id="Cms">
                      <div class="col-sm"> 

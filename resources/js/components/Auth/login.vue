@@ -99,7 +99,7 @@ export default {
                    email: this.email,
                    password: this.password,
                }
-               this.app.req.post('/login',data)
+               this.app.req.post('/auth/login',data)
                .then(response =>{
                  this.app.user = response.data;
                  $('#login').modal('hide');
