@@ -1,5 +1,8 @@
 <?php
 
+namespace Database\Seeders;
+
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
 class ServicesSeeder extends Seeder
@@ -11,21 +14,21 @@ class ServicesSeeder extends Seeder
      */
     public function run()
     {
-        App\Services ::truncate();
+        DB::table('services')->truncate();
         DB::table('services_version')->truncate();
-        App\Services ::create([
+        DB::table('services')->insert([
             'service'=>'hosting',
             'price'=>50
             ]);
-        App\Services ::create([
+        DB::table('services')->insert([
             'service'=>'seo',
             'price'=>20
             ]);      
-        App\Services ::create([
+        DB::table('services')->insert([
             'service'=>'security',
             'price'=>70
             ]);
-        App\Services ::create([
+        DB::table('services')->insert([
             'service'=>'management',
             'price'=>20
             ]);

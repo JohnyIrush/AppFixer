@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
 class ProductTableSeeder extends Seeder
@@ -13,8 +14,8 @@ class ProductTableSeeder extends Seeder
      */
     public function run()
     {
-        \App\Product::truncate();
-        $product = new \App\Product([
+        DB::table('applications')->truncate();
+        DB::table('applications')->insert([
              'image' => 'microsoft-edge.jpg',
              'name' => 'Microsoft-edge',
              'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusantium exercitationem a, pariatur soluta alias.',
@@ -23,9 +24,8 @@ class ProductTableSeeder extends Seeder
              'location' => '/',
              'discount' => 0
         ]);
-        $product->save();
 
-        $product = new \App\Product([
+        DB::table('applications')->insert([
             'image' => 'avast.png',
             'name' => 'Avast',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusantium exercitationem a, pariatur soluta alias.',
@@ -34,9 +34,8 @@ class ProductTableSeeder extends Seeder
             'location' => '/',
             'discount' => 0
        ]);
-       $product->save();
 
-       $product = new \App\Product([
+       DB::table('applications')->insert([
         'image' => 'windows-10.jpg',
         'name' => 'Microsoft Windows 10',
         'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusantium exercitationem a, pariatur soluta alias.',
@@ -45,8 +44,7 @@ class ProductTableSeeder extends Seeder
         'location' => '/',
         'discount' => 0 
        ]);
-       $product->save();
-       $product = new \App\Product([
+       DB::table('applications')->insert([
         'image' => 'cybersecurity.jpg',
         'name' => 'cyber security',
         'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusantium exercitationem a, pariatur soluta alias.',
@@ -55,9 +53,8 @@ class ProductTableSeeder extends Seeder
         'location' => '/',
         'discount' => 0 
    ]);
-   $product->save();
 
-   $product = new \App\Product([
+   DB::table('applications')->insert([
        'image' => 'comp.jpg',
        'name' => 'Computer',
        'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusantium exercitationem a, pariatur soluta alias.',
@@ -66,9 +63,8 @@ class ProductTableSeeder extends Seeder
        'location'  => '/',
        'discount' => 0
   ]);
-  $product->save();
 
-  $product = new \App\Product([
+  DB::table('applications')->insert([
    'image' => 'binary.jpg',
    'name' => 'Binary',
    'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis accusantium exercitationem a, pariatur soluta alias.',
@@ -77,6 +73,5 @@ class ProductTableSeeder extends Seeder
    'location' => '/',
    'discount' => 0
   ]);
-  $product->save();
     }
 }

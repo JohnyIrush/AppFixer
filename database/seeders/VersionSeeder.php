@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
 class VersionSeeder extends Seeder
@@ -13,9 +14,10 @@ class VersionSeeder extends Seeder
      */
     public function run()
     {
-        App\Version::truncate();
-        App\Version::create(['version'=>'Basic']);
-        App\Version::create(['version'=>'Standard']);
-        App\Version::create(['version'=>'Pro']);
+        DB::table('versions')->truncate();
+        DB::table('versions')->insert(['version'=>'Basic']);
+        DB::table('versions')->insert(['version'=>'Standard']);
+        DB::table('versions')->insert(['version'=>'Pro']);
+
     }
 }
