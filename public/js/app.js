@@ -2212,7 +2212,7 @@ __webpack_require__.r(__webpack_exports__);
         if (editmode == true) {
           link = '/editpost/' + postEditId;
         } else {
-          link = '/createpost';
+          link = 'http://127.0.0.1:8000/createpost';
         }
 
         axios.post(link, data).then(function () {
@@ -5321,6 +5321,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
 //
 //
 //
@@ -82732,9 +82737,7 @@ var render = function() {
           _c("div", { staticClass: "card Theme" }, [
             _vm._m(1),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("div", { domProps: { innerHTML: _vm._s(_vm.solutions.post) } })
-            ]),
+            _vm._m(2),
             _vm._v(" "),
             _c("div", { staticClass: "card-footer" }, [
               _c("div", { staticClass: "row justify-content-center" }, [
@@ -82750,18 +82753,18 @@ var render = function() {
                         }
                       }
                     },
-                    [_vm._m(2)]
+                    [_vm._m(3)]
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(3),
-                _vm._v(" "),
                 _vm._m(4),
                 _vm._v(" "),
-                _vm._m(5)
+                _vm._m(5),
+                _vm._v(" "),
+                _vm._m(6)
               ]),
               _vm._v(" "),
-              _vm._m(6)
+              _vm._m(7)
             ])
           ])
         ]),
@@ -82796,15 +82799,15 @@ var render = function() {
                 )
               }),
               _vm._v(" "),
-              _vm._m(7),
-              _vm._v(" "),
               _vm._m(8),
               _vm._v(" "),
               _vm._m(9),
               _vm._v(" "),
               _vm._m(10),
               _vm._v(" "),
-              _vm._m(11)
+              _vm._m(11),
+              _vm._v(" "),
+              _vm._m(12)
             ],
             2
           )
@@ -82812,7 +82815,7 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(12)
+    _vm._m(13)
   ])
 }
 var staticRenderFns = [
@@ -82964,6 +82967,27 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-header" }, [
       _c("h1", { staticClass: "heading-color heading-style" }, [
         _vm._v("Posts")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-body" }, [
+      _c("div", [
+        _c("p", { staticClass: "text-white" }, [
+          _vm._v(
+            " Lorem, ipsum dolor sit amet consectetur adipisicing elit.\n                      Explicabo odio sapiente iste quidem \n                      obcaecati nostrum est necessitatibus laboriosam.\n                       "
+          ),
+          _c("img", {
+            staticClass: "img-fluid",
+            attrs: { src: "/Images/space-shuttle.jpg", alt: "" }
+          }),
+          _vm._v(
+            "\n                       Nostrum debitis dignissimos magnam fuga maiores quasi praesentium omnis modi animi laborum corporis sequi minima, quaerat saepe quas distinctio facilis eos labore sunt non. Accusamus quis esse officiis odit, quaerat eligendi sequi nostrum reiciendis iure neque, beatae adipisci voluptatem est ab. Iusto nisi in tempore rem ducimus molestiae numquam quaerat earum sequi nam animi, repudiandae laudantium sunt et ipsa laborum autem iste obcaecati repellendus sit possimus. Assumenda facilis libero atque adipisci, rerum accusamus error saepe nesciunt doloribus, veritatis nostrum, maxime alias neque ratione? Atque labore incidunt, voluptates maxime aspernatur voluptatem provident laboriosam rerum fugiat, consequuntur placeat suscipit perferendis facilis excepturi, nisi dolore doloremque aliquam commodi quasi sint quaerat praesentium. Non, sit asperiores magnam maiores aliquam sint reiciendis mollitia culpa delectus distinctio eaque aspernatur nam veritatis excepturi tenetur temporibus reprehenderit voluptas cumque nesciunt obcaecati? Nobis molestiae accusamus, dolor ducimus ullam fugiat amet magnam sequi recusandae in! Nam, vitae officia doloremque corrupti itaque ducimus maiores aspernatur tempore suscipit vel sed, natus commodi accusantium ipsam ad voluptatem aut velit eligendi dolorum provident! Adipisci delectus obcaecati quas sapiente ducimus odit ullam quia inventore temporibus dolor, consequatur earum autem necessitatibus! Corporis eos ea rerum soluta. Perferendis culpa repellendus odit dolore animi vitae assumenda veniam eos veritatis iusto asperiores quae nobis voluptate, sapiente minima. Ipsum quas sed sapiente possimus assumenda quae deleniti hic voluptatum atque earum. Aliquid dolor, reiciendis voluptatem doloremque, ea assumenda ipsam dolores rem commodi fugit sit! Quas numquam a voluptate assumenda, ipsum quaerat iusto perspiciatis, nesciunt laudantium consequuntur similique, beatae sunt? Aut, minima sunt. Explicabo, itaque tempora, beatae nihil dignissimos corporis nisi vero qui necessitatibus minima harum! Sunt, autem ducimus ab quia ratione omnis corrupti quae\n                      alias asperiores. Ut numquam, minima et aperiam tempore quod! "
+          )
+        ])
       ])
     ])
   },

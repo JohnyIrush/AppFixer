@@ -93,7 +93,7 @@ export default {
            if(editmode==true){
                link = '/editpost/' + postEditId;
            }else{
-             link = '/createpost';
+             link = 'http://127.0.0.1:8000/createpost';
            }
           axios.post(link,data)
           .then(()=>{

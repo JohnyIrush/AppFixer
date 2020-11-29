@@ -53,8 +53,13 @@
                  <h1 class="heading-color heading-style">Posts</h1>
                </div>
                 <div class="card-body">
-                <div v-html="solutions.post">
-                    
+                <div >
+                    <p class="text-white"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                       Explicabo odio sapiente iste quidem 
+                       obcaecati nostrum est necessitatibus laboriosam.
+                        <img src="/Images/space-shuttle.jpg" alt="" class="img-fluid">
+                        Nostrum debitis dignissimos magnam fuga maiores quasi praesentium omnis modi animi laborum corporis sequi minima, quaerat saepe quas distinctio facilis eos labore sunt non. Accusamus quis esse officiis odit, quaerat eligendi sequi nostrum reiciendis iure neque, beatae adipisci voluptatem est ab. Iusto nisi in tempore rem ducimus molestiae numquam quaerat earum sequi nam animi, repudiandae laudantium sunt et ipsa laborum autem iste obcaecati repellendus sit possimus. Assumenda facilis libero atque adipisci, rerum accusamus error saepe nesciunt doloribus, veritatis nostrum, maxime alias neque ratione? Atque labore incidunt, voluptates maxime aspernatur voluptatem provident laboriosam rerum fugiat, consequuntur placeat suscipit perferendis facilis excepturi, nisi dolore doloremque aliquam commodi quasi sint quaerat praesentium. Non, sit asperiores magnam maiores aliquam sint reiciendis mollitia culpa delectus distinctio eaque aspernatur nam veritatis excepturi tenetur temporibus reprehenderit voluptas cumque nesciunt obcaecati? Nobis molestiae accusamus, dolor ducimus ullam fugiat amet magnam sequi recusandae in! Nam, vitae officia doloremque corrupti itaque ducimus maiores aspernatur tempore suscipit vel sed, natus commodi accusantium ipsam ad voluptatem aut velit eligendi dolorum provident! Adipisci delectus obcaecati quas sapiente ducimus odit ullam quia inventore temporibus dolor, consequatur earum autem necessitatibus! Corporis eos ea rerum soluta. Perferendis culpa repellendus odit dolore animi vitae assumenda veniam eos veritatis iusto asperiores quae nobis voluptate, sapiente minima. Ipsum quas sed sapiente possimus assumenda quae deleniti hic voluptatum atque earum. Aliquid dolor, reiciendis voluptatem doloremque, ea assumenda ipsam dolores rem commodi fugit sit! Quas numquam a voluptate assumenda, ipsum quaerat iusto perspiciatis, nesciunt laudantium consequuntur similique, beatae sunt? Aut, minima sunt. Explicabo, itaque tempora, beatae nihil dignissimos corporis nisi vero qui necessitatibus minima harum! Sunt, autem ducimus ab quia ratione omnis corrupti quae
+                       alias asperiores. Ut numquam, minima et aperiam tempore quod! </p>
                 </div>
                 </div>
                   <div class="card-footer">
