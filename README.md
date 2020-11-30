@@ -8,6 +8,8 @@ Appsolve is a website that provides technology instruction guides, to fix Softwa
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+We recommend you to visit this YouTube Channel and follow the Laravel Development Enviroment set-up series.<p align="left"><a href="https://www.youtube.com/watch?v=nwJ71v_Npp8&list=PL2Q-5sYPVXz2b_sFmsI2TkQCYTA7nDVIN" >Laravel development Enviroment Set-up Tutorial</a></p> 
+
 ### Prerequisites
 
 What things you need to install the software and how to install them:
