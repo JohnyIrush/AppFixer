@@ -1,6 +1,8 @@
 # e-shop
 
-e-shop is an e-commerce web application that sells goods online. Buyers have to create an account to buy products with e-shop. This application has major features such as user authentication with social media accounts such as GitHub, Linkedin, and Pinterest; User Authorization with different roles such as Admin, Author, and user; Goods online payment with methods such as Paypal and Stripe. Customer newsletter subscription with MailChimp. This application has an Administrator dashboard through which all applications' resources are managed; Products Dashboard where only the administrator or author can manage products (create, edit or delete products); Users Dashboard where only the administrator can manage users(delete users, assign roles to users).
+Appsolve is a website that provides technology instruction guides, to fix Software and computer-related problems. This application has major features such as user authentication with social media accounts such as GitHub;Customer newsletter subscription. This application has an Administrator dashboard through which all applications' resources are managed. This application has its own rich text editor for content editting.
+
+
 
 ## Getting Started
 
@@ -108,15 +110,15 @@ php artisan serve
 ## Built With
 
 * [Laravel](https://laravel.com/docs/7.x/installation) - The web framework used
-* [npm](https://www.npmjs.com/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Vue js](https://vuejs.org) - The web framework used
+* [Bootstrap](https://getbootstrap.com) - The web framework used
+* [jQuery](https://jquery.com) - The web framework used
+* [Composer](https://getcomposer.org) - Laravel Dependency Management
+* [npm](https://www.npmjs.com) - Vue js Dependency Management
 
 ## Contributing
 
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
