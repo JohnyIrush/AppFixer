@@ -24153,7 +24153,7 @@ button.bg-lighter:focus
 
 .bg-gradient-primary
 {
-    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+    background: #4d2f4d !important;
 }
 
 .bg-gradient-secondary
